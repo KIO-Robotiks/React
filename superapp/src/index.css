@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cube {
+  padding: 80px;
+  border: 3px dotted darkcyan;
+}
+
+.cubeNews {
+  padding: 20px;
+  border: 3px dotted darkcyan;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: medium;
+}
+
+.EventCard {
+  padding: 10px;
+  margin: 10px 2px;
+  border: 3px dotted darkseagreen;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-style: italic;
+}
+
+.hello {
+  color: rgb(204, 169, 42);
+  padding: 10px;
+  border: 2px dotted violet;
+  border-radius: 5px;
+}
+
+.currentTime {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
