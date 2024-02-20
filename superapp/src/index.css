@@ -55,3 +55,13 @@ code {
   flex-direction: row;
   gap: 10px;
 }
+
+.CommentList {
+  padding: 5px;
+  border: 3px dotted darkcyan;
+  text-align: start;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* gap: 5px; */
+  font-size: medium;
+}
