@@ -12,14 +12,11 @@ function CommentList() {
     function getNewID() {
         console.log(comments);
         for (let i = 0; i < 1000; i++) {
-            if (!comments.some((comment) => comment.id === i)) return i;
-        }           
-    }
+            if (!comments.some((comment) => comment.id === i)) return i;}   }
 
     function clickHandler() {
-        if (!text.trim()) {
-            return;
-        }
+        if (!text || !text.trim()) {
+            return; }
         setComments([...comments, { id: getNewID(), text: text }]);
         setText("");
     };
